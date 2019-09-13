@@ -86,5 +86,9 @@ int main()
 
                 std::cout << "Found "<< found << "/"
                         << search.size() << " values." << std::endl;
+		
+	return 0;
+}
+
 
 
