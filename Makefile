@@ -14,7 +14,7 @@ fast: CXXFLAGS=-Wall -O3
 fast: runtests
 
 # the objects needed for the runtests program
-runtests: runtests.o binsearch.o linearsearch.o
+runtests: runtests.o binsearch.o linearsearch.o sort.o
 
 # clean up
 clean:
