@@ -13,10 +13,10 @@ bool linearSearch(const std::vector<int>& set, int value)
 
  bool linearSearch(const int *begin, const int *end, int value)
 {
-	while(begin != end){
-	if(*begin == value)
-		return true;
+	for ( ; begin < end; begin++)
+	{
+		if (*begin == value)
+			return true;
 	}
-
 	return false;
-} 
+}
